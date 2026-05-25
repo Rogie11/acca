@@ -12,11 +12,12 @@
 - title: "Events"
   url: "events/"
 - title: "Academics"
-children:
-  - title: "注册 Registration"
-    url: "registration/"
-  - title: "主科 Chinese Courses"
-    url: "courses/"
+  url: ""
+  children:
+    - title: "注册 Registration"
+      url: "registration/"
+    - title: "主科 Chinese Courses"
+      url: "courses/"
   - title: "副科 Enrichment"
     url: "enrichment/"
 - title: "Campus"
