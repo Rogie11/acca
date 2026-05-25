@@ -85,6 +85,45 @@ textarea {
   border-radius: 9999px;
 }
 
+.site-nav li {
+  position: relative;
+}
+
+.site-nav li ul {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  min-width: 220px;
+  background: #ffffff;
+  border: 1px solid #e4e7ec;
+  border-radius: 0.9rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 18px 45px rgba(33, 56, 77, 0.08);
+  z-index: 20;
+}
+
+.site-nav li:hover > ul,
+.site-nav li:focus-within > ul {
+  display: block;
+}
+
+.site-nav li ul li {
+  width: 100%;
+}
+
+.site-nav li ul li a {
+  display: block;
+  padding: 0.65rem 1rem;
+  border-radius: 0;
+}
+
+.site-nav li ul li a:hover {
+  background: #f7faff;
+}
+
 .site-nav a:hover {
   background: #f1f5ff;
 }
