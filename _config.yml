@@ -1,7 +1,5 @@
 title: "亚特兰大现代中文学校 Atlanta Contemporary Chinese Academy (ACCA)"
 description: "学习中文 感受中华文化 — Chinese Learning and Culture Community Center"
-url: "https://acca-web.org"
-baseurl: "/acca"
 markdown: kramdown
 permalink: pretty
 defaults:

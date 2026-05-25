@@ -1,0 +1,3 @@
+# Production environment config
+baseurl: "/acca"
+url: "https://acca-web.org"
