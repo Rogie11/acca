@@ -1,0 +1,6 @@
+# Ignore Jekyll build output
+_site/
+
+# Editor and OS files
+.DS_Store
+.sass-cache/
