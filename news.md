@@ -16,7 +16,7 @@ layout: jekyii
       <h3>{{ item.title }}</h3>
       <p>{{ item.excerpt }}</p>
       {% if item.url %}
-      <a href="{{ item.url }}" class="button inline">阅读更多</a>
+      <a href="{{ item.url | relative_url }}" class="button inline">阅读更多</a>
       {% endif %}
     </article>
     {% endfor %}

@@ -38,7 +38,7 @@ description: "学习中文 感受中华文化 — Chinese Learning and Culture C
       <span class="card-label">{{ item.date }}</span>
       <h3>{{ item.title }}</h3>
       <p>{{ item.excerpt }}</p>
-      <a href="{{ item.url }}" class="button inline">点击看全文</a>
+      <a href="{{ item.url | relative_url }}" class="button inline">点击看全文</a>
     </article>
     {% endfor %}
   </div>
